@@ -27,7 +27,7 @@ namespace Test_Prism_FileIO.ViewModels
         {
             _dialogService = dialogService;
 
-                     讀取檔案Command = new DelegateCommand(async () =>
+            寫入檔案Command = new DelegateCommand(async () =>
             {
                 try
                 {
@@ -44,7 +44,7 @@ namespace Test_Prism_FileIO.ViewModels
                 }
             }
             );
-            寫入檔案Command = new DelegateCommand(async () =>
+            讀取檔案Command = new DelegateCommand(async () =>
             {
                 try
                 {
