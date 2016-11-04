@@ -6,6 +6,7 @@
              x:Class="Test_Prism_FileIO.Views.MainPage"
              Title="MainPage">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
+        <Button Text="寫入檔案" Command="{Binding 寫入檔案Command}" />
+        <Button Text="讀取檔案" Command="{Binding 讀取檔案Command}" />
+    </StackLayout>
 </ContentPage>
